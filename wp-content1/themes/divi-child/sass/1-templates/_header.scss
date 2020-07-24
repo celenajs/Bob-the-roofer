@@ -1,0 +1,135 @@
+#top-header{
+    background-color:#342e2e;
+    .container {
+      text-align: center!important;
+        #et-info{
+            float:none!important;
+           
+        }
+    }
+  }
+  label {
+    color: #fff;
+  }
+  #et-info a {
+    text-decoration: none;
+}
+  input.wpcf7-form-control.wpcf7-submit {
+    border: 1px solid #ca5825;
+    color: #ca5825!important;
+    padding: .6em 1.9em;
+  }
+
+  form.wpcf7-form {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    color: #fff !important;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    border: 1px solid #ef8021;
+    color: #ef8021 !important;
+    padding: .6em 1.9em;
+}
+input.text, input.title, input[type=email], input[type=password], input[type=tel], input[type=text], select, textarea{
+    padding: 0px!important;
+    border: 1px solid #bbb;
+    color: #4e4e4e;
+    background-color: #fff;
+    width:100%;
+}
+.et_mobile_menu {
+    border-top: 1px solid #ef8021;
+}
+
+.mobile_menu_bar:before {
+
+    color: #f5ce2c;
+}
+#main-header .et_mobile_menu {
+  background-color: #342e2e!important;
+}
+.et-fixed-header#main-header{
+    border-bottom: 1px solid #f5ce2c !important;
+}
+
+#footer-bottom {
+    background-color: #342e2e !important;
+}
+
+#footer-info {
+    color: #f8f9fa;
+
+    .et-social-icons {
+        float: right;
+
+        .et-social-icon a {
+            color: #fff;
+        }
+    }
+}
+  @media only screen and (max-width: 1024px) {
+  
+      #top-menu-nav,
+      #top-menu {
+          display: none !important;
+      }
+  
+      #et_top_search {
+          display: none !important;
+      }
+  
+      #et_mobile_nav_menu {
+          display: block !important;
+      }
+      ul#mobile_menu {
+        background: #342e2e;
+      }
+  }
+  @media only screen and (max-width: 320px) {
+    textarea {
+        overflow: auto;
+        resize: vertical;
+        padding: 0;
+    }
+    input.wpcf7-form-control.wpcf7-text {
+        width: 100%;
+    }
+    label {
+        width: 100%;
+    }
+
+    input[type=email] {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    input.wpcf7-form-control.wpcf7-text {
+        width: 100%;
+    }
+    label {
+        width: 100%;
+    }
+    textarea {
+        overflow: auto;
+        resize: vertical;
+        padding: 0;
+    }
+
+    input[type=email] {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+    padding: 0;
+ }
+ ul#mobile_menu {
+  background: #342e2e;
+ 
+ }
+}
